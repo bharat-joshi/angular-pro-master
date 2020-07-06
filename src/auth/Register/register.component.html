@@ -1,1 +1,10 @@
-<div> register </div>
+<div> 
+<app-auth-form (submitted)="registeruser($event)">
+    <h1>Register</h1>
+    <a routerLink="/auth/login">already registered?</a>
+    <button type="submit">Register</button>
+    <div class="error" *ngIf="error">
+        {{error}}
+    </div>
+</app-auth-form>
+</div>
