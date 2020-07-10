@@ -10,7 +10,6 @@ import { SharedModule } from './shared/shared.module';
 
 //shared module
 
-
 export const firebaseConfig :FirebaseAppConfig = {
   apiKey: "AIzaSyDjQrbCKDBGkx09fwFMWJF5ARDuEoFJb2w",
   authDomain: "fitness-app-b6f46.firebaseapp.com",
