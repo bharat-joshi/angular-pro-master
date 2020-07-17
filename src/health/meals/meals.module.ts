@@ -16,6 +16,10 @@ export const routes: Routes = [
     path: "new",
     component: MealComponent,
   },
+  {
+    path:':id',
+    component: MealComponent,
+  }
 ];
 @NgModule({
   declarations: [MealsComponent, MealComponent, MealFormComponent],

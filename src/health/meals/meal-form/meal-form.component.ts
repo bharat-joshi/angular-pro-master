@@ -30,7 +30,7 @@ export class MealFormComponent implements OnInit {
   createForm() {
     this.form = this.fb.group({
       name: ["", Validators.required],
-      ingredients: this.fb.array([""]),
+      ingredients: this.fb.array([]),
     });
   }
 
